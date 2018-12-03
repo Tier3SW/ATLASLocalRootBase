@@ -1,0 +1,4 @@
+#compdef lsetup
+ 
+_arguments "*: :($ALRB_availableTools)"
+

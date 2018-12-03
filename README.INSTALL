@@ -1,0 +1,15 @@
+Installation of ATLASLocalRootBase is a one-step process handled by 
+the manageTier3SW package.  
+
+Please see
+https://twiki.atlas-canada.ca/bin/view/AtlasCanada/ManageTier3SW
+
+For usage and information about ATLASLocalRootBase, please see
+https://twiki.atlas-canada.ca/bin/view/AtlasCanada/ATLASLocalRootBase
+
+
+
+WARNING: Do NOT delete or change any of the top level directories in 
+$ATLAS_LOCAL_ROOT_BASE.  Also, you may only add directories/files of your own 
+if their names begin with "local".
+

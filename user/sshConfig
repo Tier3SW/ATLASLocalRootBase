@@ -1,0 +1,36 @@
+# This is a template 
+#  copy and rename this as ~/.ssh/config and make the changes as indicated
+# This is documented in 
+#  https://twiki.atlas-canada.ca/bin/view/AtlasCanada/Password-lessSsh
+
+Host lxplus*.cern.ch lxplus 
+Protocol 2 
+GSSAPIAuthentication yes 
+GSSAPIDelegateCredentials yes 
+PubkeyAuthentication no 
+PasswordAuthentication yes
+GSSAPITrustDns yes 
+ForwardX11 yes
+# User <your lxplus username if different>
+
+Host svn.cern.ch svn 
+GSSAPIAuthentication yes 
+GSSAPIDelegateCredentials yes 
+GSSAPITrustDns yes
+Protocol 2 
+ForwardX11 no
+# User <your lxplus username if different>
+
+Host gitlab.cern.ch
+GSSAPIAuthentication yes 
+GSSAPIDelegateCredentials yes 
+GSSAPITrustDns yes
+Protocol 2 
+ForwardX11 no
+# User <your lxplus username if different>
+
+Host *
+Protocol 2
+# uncomment the line after you create your public key, instructions:
+#   https://twiki.atlas-canada.ca/bin/view/AtlasCanada/Password-lessSsh
+#IdentityFile ~/.ssh/id_rsa

@@ -1,0 +1,25 @@
+#OS:tool
+Linux:fax	Obsolete
+Linux:pod	Obsolete
+Linux:rcsetup	Obsolete
+Linux:atlantis	Under consideration
+Linux:sft	Obsolete
+Linux:xcache	Tested as part of xrootd
+Linux:gcc	Supporting tool for others
+Linux:hdf5	Not planned as this is very specialized
+Linux:python	Supporting tool for others
+Linux:gitlab	Under consideration
+Linux:adctools	Not planned as this requires authorization
+Linux:cmt	Obsolete supporting tool
+Linux:fftw	Supporting tool for others
+Linux:gccxml	Supporting tool for others
+Linux:boost	Supporting tool for others
+Linux:gsl	Supporting tool for others
+Linux:java	Not planned as this is not real
+Linux:pacman	Obsolete
+Linux:png	Supporting tool for others
+Linux:swmgr	Not certain of status
+Linux:tbb	Supporting tool for others
+Linux:inotifytools Supporting tool for others
+Linux:art	Specialized tool
+Linux:cppcheck	Specialized tool

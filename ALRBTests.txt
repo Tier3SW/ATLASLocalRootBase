@@ -1,0 +1,51 @@
+
+Arguments to -t/--test option are:
+cmtSL6-dev	Use dev version of cmtSL6
+testEmi		setup emi testing version
+testRucioPy27   sets up python 2.7 (for SL6) as a rucio dependency 
+
+Other environment variables (must be exported):
+
+ALRB_noGridMW=YES	
+	skip grid middleware setups
+ALRB_<tool>Version=<version> 
+	set up a particular version of a tool
+	This is provided only as a convenience; recommended way to do it is
+	     to specify it through lsetup "tool <version>"
+ALRB_noFrontierSetup=YES
+	skip setting FRONTIER_SERVER 
+ALRB_menuFmtSkip=YES
+	to bypass printing the menu with special characters for formatting
+
+
+These environment variables affect the behaviour of the -c/--container option:
+  see also https://twiki.atlas-canada.ca/bin/view/AtlasCanada/Containers   
+      
+ALRB_CONT_OPTS        
+        additional options to pass to singularity or docker
+          eg singularity [opt] 
+ALRB_CONT_CMDOPTS     
+        additional options to pass to singularity or docker commands 
+          eg singularity exec [opt] 
+ALRB_CONT_SWTYPE      
+        container software (singularity/docker) to use 
+          default: docker (MacOSX), singularity (others)
+ALRB_CONT_PRESETUP    
+        pre setupATLAS commands to run 
+         multiple commands can be semi-colon separated
+         or a file to execute or source
+ALRB_CONT_POSTSETUP   
+        post setupATLAS commands to run
+         multiple commands can be semi-colon separated
+         or a file to execute or source
+ALRB_CONT_RUNPAYLOAD  
+        run these commands and exit
+         multiple commands can be semi-colon separated
+         or a file to execute or source
+	 Use this mechanism to run as a batch or grid job. 
+
+
+ALRB_containerSiteOnly=YES
+	This environment vailable should be set for sites that do not want 
+	to allow setupATLAS to work on bare metal (ie only containers are 
+	allowed).

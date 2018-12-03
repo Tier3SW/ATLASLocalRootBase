@@ -1,0 +1,55 @@
+# list synonyms delimited by commas
+# this is also an odered list with the top ones being setup first
+# the first field is the pass for processing
+# the second field is the physical dir name
+# the third field is the name
+# the other fields are synonyms
+#
+,Pass2,Pacman,pacman,
+,Pass2,sw-mgr,swmgr,
+#
+,Pass1,views,views,
+#
+,Pass1,emi,emi,
+#
+,Pass1,lcgenv,lcgenv,
+,Pass1,AtlasSetup,asetup,
+,Pass1,rcSetup,rcsetup,
+#
+,Pass2,Gcc,gcc,
+,Pass2,python,python,
+,Pass2,boost,boost,
+#
+,Pass2,rucio-clients,rucio,rucioclients,
+#
+,Pass2,gccxml,gccxml,
+,Pass2,gsl,gsl,
+,Pass2,fftw,fftw,
+,Pass2,root,root,
+,Pass2,xrootd,xrootd,
+,Pass2,davix,davix,
+,Pass2,tbb,tbb,
+#
+,Pass2,AGIS,agis,
+,Pass2,Atlantis,atlantis,
+,Pass2,Cmake,cmake,
+,Pass2,CMT,cmt,
+,Pass2,EIClient,eiclient,
+,Pass2,FAXTools,fax,faxtools,
+,Pass2,Ganga,ganga,
+,Pass2,PoD,pod,
+,Pass2,PandaClient,panda,
+,Pass2,pyAmi,pyami,
+#
+,Pass2,SFT,sft,
+#
+,Pass2,java,java,
+,Pass2,git,git,
+,Pass2,gitlab,gitlab,
+,Pass2,hdf5,hdf5,
+,Pass2,png,png,
+,Pass2,acm,acm,
+,Pass2,art,art,
+,Pass2,xcache,xcache,
+,Pass2,adctools,adctools,
+,Pass2,cppcheck,cppcheck,
