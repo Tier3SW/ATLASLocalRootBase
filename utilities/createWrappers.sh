@@ -59,6 +59,7 @@ fi
 
 # for containers lsf
 alrb_wrapDir="$ATLAS_LOCAL_ROOT_BASE/wrappers/containers/lsf"
+mkdir -p $alrb_wrapDir
 alrb_wrapfile="../delegator.sh"
 alrb_linkedFList=(
     bbot
@@ -102,6 +103,7 @@ fi
 
 # for containers condor
 alrb_wrapDir="$ATLAS_LOCAL_ROOT_BASE/wrappers/containers/condor"
+mkdir -p $alrb_wrapDir
 alrb_wrapfile="../delegator.sh"
 alrb_linkedFList=(
     condor_continue
@@ -136,6 +138,7 @@ fi
 
 # for containers slurm
 alrb_wrapDir="$ATLAS_LOCAL_ROOT_BASE/wrappers/containers/slurm"
+mkdir -p $alrb_wrapDir
 alrb_wrapfile="../delegator.sh"
 alrb_linkedFList=(
     sacct
